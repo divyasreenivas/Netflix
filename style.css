@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #33333336;
+}
+li {
+    display: inline;
+    float: right;
+  }
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+li a:hover {
+    background-color: #111;
+  }
+#logo{
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+nav{
+    z-index: 99999;
+    
+}
+.navbar{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/vampire.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+}
+.hometext{
+    color: white;
+}
+#leftside{
+    margin-top: 150px;
+    margin-left: 70px;
+}
+#homename{
+    font-size: 50px;
+    margin-bottom: 6px;
+}
+#home-btn{
+    margin-left: 40px;
+    color: white;
+    border-radius: 1px;
+    background-color: rgba(0, 0, 0, 0.461);
+    border-color: rgba(18, 17, 17, 0.461);
+}
+h4{
+    color: white;
+}
+#profile{
+    background-image: url(images/profilen1.png);
+    height: 500px;
+    background-size: cover;
+}
+/* footer */
+.footer {
+    max-width: 70%;
+    margin: 1rem auto;
+    overflow: auto;
+  }
+  
+  .footer,
+  .footer a {
+    color: #999;
+    font-size: 0.9rem;
+  }
+  
+  .footer p {
+    margin-bottom: 1.5rem;
+  }
+  
+  .footer .footer-cols {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+  }
+  
+  .footer li {
+    line-height: 1.9;
+  }
+  
+  .footer .lang-select {
+    margin-top: 2rem;
+    color: #999;
+    background-color: #000;
+    background-image: none;
+    border: 1px solid #333;
+    padding: 1rem 1.2rem;
+    border-radius: 5px;
+  }
